@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>dblv</artifactId>
+    <packaging>jar</packaging>
+    
+    <name>DBLV</name>
+    <description>
+        DBLV
+    </description>
+    <url>dblv.doblevesys.rhcloud.com</url>
+	
+    <parent>
+        <groupId>com.rhcloud.doblevesys</groupId>
+        <artifactId>dblv</artifactId>		
+        <version>3.0.2-SNAPSHOT</version>
+        <relativePath>../demoiselle-parent</relativePath>
+    </parent>		
+	
+    <dependencies>
+        
+        <dependency>
+            <groupId>org.demoiselle.jee</groupId>
+            <artifactId>demoiselle-core</artifactId>
+        </dependency>
+                        
+        <dependency>
+            <groupId>org.demoiselle.jee</groupId>
+            <artifactId>demoiselle-configuration</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>javax.json</groupId>
+            <artifactId>javax.json-api</artifactId>
+        </dependency>        
+        
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-jaxrs</artifactId>
+        </dependency>
+        
+    </dependencies>
+</project>
